@@ -6,10 +6,9 @@ namespace RPGDotNet
     {
         static void Main(string[] args)
         {
-            Knight arus = new Knight("Arus", 20, "Knight");
-            Wizard jannie = new Wizard("Jannie", 13, "Wizard");
-            Console.WriteLine(jannie.Attack(6));
-
+            Knight arus = new Knight("Arus", 20, "Knight", 500, 100);
+            Wizard jannie = new Wizard("Jannie", 13, "Wizard", 300, 400);
+            Console.WriteLine(arus.Attack());
         }
     }
 }
